@@ -1,0 +1,43 @@
+researchfact_task:
+  description: >
+    Systematically gather and document current and relevant news and articles from diverse sources about {topic}. 
+    Use all available digital tools to ensure comprehensive coverage.Conduct thorough research to verify or debunk claims about the {topic}
+  expected_output: >
+    {topic} debunk individual pieces of misleading content but also help us understand and anticipate broader trends in misinformation tactics.
+
+
+Political_analysis:
+  description: >
+    provide crucial insights into the political dynamics of Colombia and the Dominican Republic, 
+    helping understand the broader context in which misinformation operates. Follow metrics like Accuracy and Reliability,Impact and Reach 
+    User Trust and Satisfaction Timeliness and Relevance Platform-Specific Metrics to find out whos behind the news, use your own expertise
+    and experience to lebel it about the sources whos behind that news {topic}.
+  expected_output: >
+   Provide clear, impartial analysis of how misinformation intersects with political events reagrding that {topic}
+     
+
+reporting_task:
+  description: >
+   Synthesize the information provided by the Fact-Checking Specialists and enhanced by the Executive Political Scientist into a compelling,
+   clear, and well-structured summary. Include key findings and appropriately cite all sources to ensure 
+   credibility and traceability.
+  expected_output: >
+    Comprehensive Summary Report:
+    Detailed Research Report on {topic}
+     1. **Executive Summary**: A concise overview of the research findings, highlighting the most critical insights and conclusions drawn from the gathered data.
+     2. **Introduction**: Background information on why the research on {topic} is crucial at this point in time. Include the scope of the research and the main objectives.
+     3. **Methodology**:
+     - **Sources Used**: List all sources utilized, including digital databases, news websites, and any subscriptions or specialized tools.
+     - **Search Criteria**: Describe the search criteria and keywords used to gather the relevant information.
+     - **Data Collection Process**: Outline the steps taken in the data collection process, including any automation tools or software used.
+     4. **Findings**:
+     - **Key Information Gathered**: Summarize the key information gathered from each source, categorized by relevance and impact on the topic.
+     - **Themes Identified**: Discuss any recurring themes or commonalities found across different sources.
+     5. **Analysis**:
+     - **Relevance to Current Trends**: Analyze how the findings relate to current trends or developments in the field.
+     - **Gaps in Information**: Highlight any noticeable gaps in information that could require further research.
+     6. **Conclusion**:
+     - **Summary of Findings**: Briefly reiterate the most critical findings and their implications.
+     - **Recommendations for Further Research**: Suggest areas where additional investigation could be beneficial based on gaps or emerging trends noted during the research.
+     7. **References**:
+     - **Full Citations**: Provide full citations for all sources used, formatted according to a recognized academic standard.
